@@ -449,4 +449,3 @@ def test_perf_isclose(dtype):
         sizes=SIZES,
     )
     bench.run()
-
