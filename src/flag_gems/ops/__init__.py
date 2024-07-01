@@ -25,6 +25,7 @@ from .ge import ge, ge_scalar
 from .gelu import gelu
 from .groupnorm import group_norm
 from .gt import gt, gt_scalar
+from .isfinite import isfinite
 from .isinf import isinf
 from .isnan import isnan
 from .layernorm import layer_norm
@@ -91,6 +92,7 @@ __all__ = [
     "group_norm",
     "gt",
     "gt_scalar",
+    "isfinite",
     "isinf",
     "isnan",
     "layer_norm",
